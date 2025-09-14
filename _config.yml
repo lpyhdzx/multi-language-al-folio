@@ -192,24 +192,21 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
-  - jekyll-email-protect
+  # GitHub Pages compatible plugins only
   - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  # - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  # - jekyll-polyglot  # Disabled for GitHub Pages compatibility
-  - jekyll-regex-replace
-  - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-tabs
-  # - jekyll-terser
-  - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
 
 # Sitemap settings
 defaults:
