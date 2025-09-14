@@ -201,7 +201,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-polyglot
+  # - jekyll-polyglot  # Disabled for GitHub Pages compatibility
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
@@ -341,7 +341,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us"]
+languages: ["en-us"]  # Disabled for GitHub Pages compatibility
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
