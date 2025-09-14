@@ -192,21 +192,10 @@ keep_files:
 
 # Plug-ins
 plugins:
-  # GitHub Pages compatible plugins only
+  # Basic plugins only
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
-  - jekyll-github-metadata
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-gist
 
 # Sitemap settings
 defaults:
