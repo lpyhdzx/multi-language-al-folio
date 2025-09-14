@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://george-gca.github.io/multi-language-al-folio/sitemap.xml
+Sitemap: http://0.0.0.0:4000/sitemap.xml
