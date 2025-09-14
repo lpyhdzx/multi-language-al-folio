@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Peiyu
+middle_name: 
+last_name: Liu
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -112,13 +112,7 @@ disqus_shortname: multi-language-al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -200,7 +194,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -209,7 +203,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
-  - jekyll-terser
+  # - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -290,10 +284,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: flase # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -344,7 +338,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
+languages: ["en-us"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
@@ -358,7 +352,7 @@ parallel_localization: false
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800

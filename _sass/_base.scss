@@ -215,6 +215,26 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Profile image alignment
+.profile {
+  margin-top: -120px; // 向上移动图片
+}
+
+.profile-info {
+  margin-bottom: 1rem;
+  
+  .more-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -224,6 +244,19 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .d-flex.align-items-start {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-image {
+    margin-left: 0 !important;
+    margin-top: 0.5rem; // 移动端也向上移动一些
   }
 }
 
