@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "blank" # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Peiyu
 middle_name: 
 last_name: Liu
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://lpyhdzx.github.io # the base hostname & protocol for your site
+url: https://george-gca.github.io # the base hostname & protocol for your site
 baseurl: /multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -192,21 +192,24 @@ keep_files:
 
 # Plug-ins
 plugins:
-  # GitHub Pages compatible plugins only
+  - jekyll-archives-v2
+  - jekyll-email-protect
   - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  # - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-polyglot
+  - jekyll-regex-replace
+  - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-tabs
+  # - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
   - jemoji
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
-  - jekyll-github-metadata
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-gist
 
 # Sitemap settings
 defaults:
@@ -256,9 +259,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-# scholar:
-#   last_name: [Einstein]
-#   first_name: [Albert, A.]
+scholar:
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
@@ -286,7 +289,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 enable_publication_badges:
   altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: flase # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
@@ -335,15 +338,15 @@ external_links:
   exclude:
 
 # -----------------------------------------------------------------------------
-# Jekyll Polyglot (Disabled for GitHub Pages compatibility)
+# Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-# languages: ["en-us"]
-# default_lang: "en-us"
-# exclude_from_localization: ["assets"]
-# lang_from_path: true
-# country_flag: false # set true for allowing flag symbol in language toggle
-# parallel_localization: false
+languages: ["en-us"]
+default_lang: "en-us"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+country_flag: false # set true for allowing flag symbol in language toggle
+parallel_localization: false
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
