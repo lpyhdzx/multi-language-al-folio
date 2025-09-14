@@ -26,12 +26,12 @@ latest_posts:
 ---
 
 <!-- 在这里写你的个人简介。向世界介绍你自己。你可以链接到你喜欢的网站。你也可以放一张照片，代码已经准备好了，只需要将你的照片命名为 `prof_pic.jpg` 并放在 `img/` 文件夹中。 -->
+
 I am currently an Assistant Professor at the School of Information, University of International Business and Economics.
 
 I received my PhD in Artificial Intelligence from the Gaoling School of Artificial Intelligence, Renmin University of China, advised by `Prof. Wayne Xin Zhao`. I also hold an MS in Software Engineering from the School of Information, advised by `Prof. Wei Xu`.
 
 My research interests primarily focus on natural language processing and model compression.
-
 
 <!-- 把你的地址/邮箱/其他信息放在照片下方。你也可以通过编辑 `_pages/about.md` 的 YAML 头部中的 `profile` 属性来禁用这些元素。编辑 `_bibliography/papers.bib`，Jekyll 会自动渲染你的[出版物页面](/multi-language-al-folio/publications/)。 -->
 

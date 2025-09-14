@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Peiyu
-middle_name: 
+middle_name:
 last_name: Liu
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -327,7 +327,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us"]  # Disabled for GitHub Pages compatibility
+languages: ["en-us"] # Disabled for GitHub Pages compatibility
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true

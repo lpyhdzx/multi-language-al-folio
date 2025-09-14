@@ -1,6 +1,6 @@
 <div class="news">
   {% if site.news != blank %}
-    {% assign news = site.news | where_exp: "item", "item.published != false" %}
+    {% assign news = site.news | where_exp: 'item', 'item.published != false' %}
     {% assign news_size = news | size %}
     <div
       class="table-responsive"
