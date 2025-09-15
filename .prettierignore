@@ -3,6 +3,21 @@ _scripts/
 _site/
 assets/css/main.scss
 assets/plotly/demo.html
+_sass/
+assets/css/
+assets/js/
+_posts/
+INSTALL.md
+
+# Ignore third-party libraries and minified files
+*.min.css
+*.min.js
+*.min.css.map
+*.min.js.map
+
+# Ignore Font Awesome and Tabler Icons
+_sass/font-awesome/
+_sass/tabler-icons/
 
 # Ignore generated files
 lighthouse_results/
