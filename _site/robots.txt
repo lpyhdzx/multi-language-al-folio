@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://lpyhdzx.github.io/multi-language-al-folio/sitemap.xml
